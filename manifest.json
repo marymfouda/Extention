@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3 ,
+    "name": "Redirection google page",
+    "version":"0.1",
+    "permissions": ["tabs"],
+    "description":"chrome extention to redirect google page ",
+    "background.service_worker":{
+        "scripts" : ["script.js"]
+
+    },
+    "icons":{
+        
+        "128":"icon16.png"
+    }
+    
+}
